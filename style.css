@@ -1,0 +1,306 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and font styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.cta-button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+/* Services Section */
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+}
+.services h2{
+    font-size: 30px;
+    color: #28a745;
+    font-weight: bolder;
+    
+}
+
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+/* more styling*/
+
+
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general page setup */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    color: #f4a261;
+}
+
+/* Main Section */
+.main-section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Section Titles */
+h2, h3 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Button Styling */
+.cta-button {
+    display: inline-block;
+    background-color: #f4a261;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e76f51;
+}
+
+/* About Us Section */
+.about-us {
+    background: #fff;
+    padding: 50px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.about-us h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Service Cards */
+.services-page h2{
+    text-align: center;
+    margin-top: 10px;
+    color: dodgerblue;
+    font-weight: bolder;
+    font-size: 28px;
+    background-color: aquamarine;
+    width:80%;
+    justify-content: center;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.service-item img {
+    width: 80%; 
+    height: 400px;
+   /* width: 300px; */
+    
+    object-fit: cover;
+    margin-bottom: 15px;
+
+}
+
+.service-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.service-item a {
+    font-size: 16px;
+}
+
+/* Contact Form */
+.contact-us form {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.contact-us form input,
+.contact-us form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-us form button {
+    background-color: #f4a261;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-us form button:hover {
+    background-color: #e76f51;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .social-media {
+    margin-top: 10px;
+}
+
+footer .social-media a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social-media a:hover {
+    color: #f4a261;
+}
+
+/* my own*/
+.team-members img{
+    width: 300px;
+    height: 300px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .main-section {
+        padding: 20px;
+    }
+
+    .service-item {
+        flex-direction: row;
+        text-align: left;
+        margin: 20px 0;
+    }
+
+    .service-item img {
+        width: 150px;
+        height: 150px;
+        margin-right: 20px;
+    }
+
+    .contact-us form {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
